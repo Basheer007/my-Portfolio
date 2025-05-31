@@ -1,0 +1,12 @@
+.project-container {
+    background:black;
+}
+
+.grid-container {
+    display: grid;
+   grid-template-rows: 80px 80px 80px 80px;
+   grid-template-columns: 1fr 1fr;
+ row-gap:20px;
+ column-gap: 20px;
+   
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-italiana:'italiana', serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+body{
+  color: white;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.sharingan:hover {
+  animation: rotation 1s cubic-bezier(0.075, 0.1002, 0.565, 2) forwards infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

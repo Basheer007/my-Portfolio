@@ -1,0 +1,40 @@
+.links{
+   position: relative;
+z-index: 40;
+}
+.links::after{
+    content: "";
+    height: 1px;
+    background-color: white;
+    width: 0%;
+    position: absolute;
+ 
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease-in-out;
+   
+}
+.links:hover::after {
+    content: "";
+    height: 1px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mob-links{
+    font-size: 2rem;
+}
+.mob-links:hover {
+    color: red;
+}
+.menuContainer.active{
+  left: 0%;
+  transition: left 0.3s ease-in-out;
+}
+.menuIcon.active{
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+}
