@@ -74,9 +74,10 @@ function App() {
           <source src={itachiTheme} type="audio/mpeg" preload="auto" />
         </audio>
         {audioPlaying ? (
-          <PiSpeakerSimpleSlash className="h-8 w-8" />
+      <PiSpeakerHigh className="h-8 w-8" />
         ) : (
-          <PiSpeakerHigh className="h-8 w-8" />
+           <PiSpeakerSimpleSlash className="h-8 w-8" />
+             
         )}
       </div>
     </div>
