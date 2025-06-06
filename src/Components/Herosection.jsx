@@ -38,7 +38,7 @@ const Herosection = () => {
       className="w-full  h-[80svh] md:h-svh bg-black text-white flex pt-30 xl:pt-10 justify-center"
     >
       <div className="container mx-auto  flex flex-col md:justify-center">
-        <div className="flex gap-2 items-center h-[60%] ">
+        <div className="flex gap-2 items-center h-[60%] xl:h-[50%] ">
           <div className="w-[50%] h-full overflow-x-hidden relative flex  justify-end items-start ">
             <h1 className="absolute top-20 md:top-20 xl:top-10 ">
               <span className="  font-black  titleone inline-block -right-0 font-italiana text-[2.5rem] sm:text-[3.5rem] md:text-[4.5rem] lg:text-[5rem] xl:text-[6rem]">
@@ -71,7 +71,7 @@ const Herosection = () => {
             </h1>
           </div>
         </div>
-        <div className="w-[90%] sm:ml-10 mt-10 md:w-[50%] lg:w-[50%] md:ml-20  xl:ml-50 ">
+        <div className="w-[90%] ml-[10px] sm:ml-10 mt-10 md:w-[50%] lg:w-[50%] md:ml-20  xl:ml-50 ">
           <p className="text-[15px] hero-para font-inter sm:text-[18px]">
             I'm an aspiring Full-Stack Developer with a passion for building
             smooth, scalable web experiences— from pixel-perfect front-end
