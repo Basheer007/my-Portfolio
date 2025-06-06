@@ -71,7 +71,7 @@ const Herosection = () => {
             </h1>
           </div>
         </div>
-        <div className="w-[90%] ml-[10px] sm:ml-10 mt-10 md:w-[50%] lg:w-[50%] md:ml-20  xl:ml-50 ">
+        <div className="w-[90%] ml-[15px] sm:ml-10 mt-10 md:w-[50%] lg:w-[50%] md:ml-20  xl:ml-50 ">
           <p className="text-[15px] hero-para font-inter sm:text-[18px]">
             I'm an aspiring Full-Stack Developer with a passion for building
             smooth, scalable web experiences— from pixel-perfect front-end
