@@ -35,7 +35,7 @@ const Herosection = () => {
   return (
     <section
       id="Home"
-      className="w-full  h-[80svh] md:h-svh bg-black text-white flex pt-30 xl:pt-10 justify-center"
+      className="w-full  h-[80svh] md:h-svh bg-black text-white flex pt-30 xl:pt-10 justify-center border-2 border-red-500"
     >
       <div className="container mx-auto  flex flex-col md:justify-center">
         <div className="flex gap-2 items-center h-[60%] xl:h-[50%] ">
