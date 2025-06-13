@@ -43,7 +43,7 @@ const Aboutsection = () => {
   return (
     <section
       id="about"
-      className="about-sec w-full h-[80svh] xl:h-dvh -z-20 bg-black relative overflow-x-hidden"
+      className="about-sec w-full h-[80svh] xl:h-dvh -z-20 bg-black relative overflow-x-hidden border-2 border-red-500"
     >
       <div className="absolute  top-0 -right-5 w-fit h-fit abstarct-svg">
         <svg
@@ -79,7 +79,7 @@ const Aboutsection = () => {
           />
         </svg>
       </div>
-      <div className="w-[95%] h-full mx-auto flex items-center justify-center">
+      <div className="w-[95%] h-full mx-auto flex items-center justify-center border-2 border-red-500">
         <div className="w-full h-[80%]  flex lg:w-[70%] ">
           <div className="w-1/2 flex justify-center items-center ">
             <div className="  relative w-[70%] h-[55%] sm:h-[65%] md:h-[70%] max-w-[240px] border-2 border-dashed bg-black rounded-[25px] p-2">
