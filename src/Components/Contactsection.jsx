@@ -9,9 +9,9 @@ const Contactsection = () => {
   return (
     <section
       id="contact"
-      className="contact-container w-full h-[70svh] md:h-dvh border-2 border-red-500"
+      className="contact-container w-full h-[70svh] md:h-dvh "
     >
-      <div className="container mx-auto   h-full flex justify-center items-center border-2 border-red-500">
+      <div className="container mx-auto   h-full flex justify-center items-center ">
         <div className="w-[90%] max-w-[768px] h-fit bg-red-900/10 backdrop-blur-lg rounded-md p-6 flex flex-col gap-10 border-2 border-red-900/90">
           <p className="font-italiana font-black text-4xl capitalize">
             contact me
