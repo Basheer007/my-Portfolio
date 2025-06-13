@@ -20,8 +20,8 @@ const Projectsection = () => {
     });
   });
   return (
-    <section id="projects" className="project-container h-svh w-full ">
-      <div className="w-[90%] max-w-[768px] h-full mx-auto relative flex flex-col justify-center gap-20  ">
+    <section id="projects" className="project-container h-svh w-full border-2 border-red-500">
+      <div className="w-[90%] max-w-[768px] h-full mx-auto relative flex flex-col justify-center gap-20  border-2 border-red-500">
         <div className="flex flex-col gap-4 ">
           <h3 className="font-italiana text-2xl sm:text-4xl font-black">
             Projects I created
