@@ -6,36 +6,41 @@
   },
   {
     "id": "2",
+    "Name": "Tic Tac Toe Game",
+    "link": "https://ticcc-taccc-toee.netlify.app/"
+  },
+  {
+    "id": "3",
     "Name": "Password Generator",
     "link": "https://password3.netlify.app/"
   },
   {
-    "id": "3",
+    "id": "4",
     "Name": "Currency Converter",
     "link": "https://currencyconvertreact.netlify.app/"
   },
   {
-    "id": "4",
+    "id": "5",
     "Name": "BMI Calculator",
     "link": "https://bmicalculator2.netlify.app/"
   },
   {
-    "id": "5",
+    "id": "6",
     "Name": "QR Code Generator",
     "link": "https://qrgeneratorreact.netlify.app/"
   },
   {
-    "id": "6",
+    "id": "7",
     "Name": "Weather App",
     "link": "https://wheatherreactapp.netlify.app/"
   },
   {
-    "id": "7",
+    "id": "8",
     "Name": "Edusity School",
     "link": "https://edusityschool.netlify.app/"
   },
   {
-    "id": "8",
+    "id": "9",
     "Name": "ACME React",
     "link": "https://basheer007.github.io/acme-react/"
   }
