@@ -20,7 +20,10 @@ const Projectsection = () => {
     });
   });
   return (
-    <section id="projects" className="project-container h-svh w-full ">
+    <section
+      id="projects"
+      className="project-container scroll-mt-[100px] w-full h-fit pt-[100px]"
+    >
       <div className="w-[90%] max-w-[768px] h-full mx-auto relative flex flex-col justify-center gap-20 ">
         <div className="flex flex-col gap-4 ">
           <h3 className="font-italiana text-2xl sm:text-4xl font-black">
@@ -35,7 +38,7 @@ const Projectsection = () => {
           </p>
         </div>
 
-        <div className="grid-container w-full h-fit  ">
+        <div className="grid-container w-full h-fit mb-10 ">
           {projectList.map((data) => {
             return (
               <div
